@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  app:
+    ports:
+      - "3001:3000"
+  mysql:
+    ports:
+      - "3306:3306"
